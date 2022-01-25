@@ -1,0 +1,173 @@
+/**
+CSS FAIT PAR LE MEILLEUR, C A DIRE MOUA
+*/
+
+.html, .body {
+    width: auto;
+    height: auto;
+}
+
+
+/* Sidebar */
+
+
+#sidebar {
+    position: absolute;
+    width: 18em;
+    height: 100%;
+    
+    background: #FAFAFA;
+}
+
+
+/* Sidebar - Title */
+
+
+.s-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: max-content;
+
+    margin: 5vh 0 0 2em;
+}
+
+.s-title > img {
+    padding-right: 1em;
+    transform: scale(0.8);
+}
+
+.s-text > h1 {
+    margin: 0;
+    
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: xx-large;
+    
+    color: #000000;
+}
+
+.s-text > h3 {
+    margin: 0;
+    
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: x-large;
+    
+    color: #000000;
+}
+
+.s-text > h1 {
+    margin-bottom: -2vh;
+}
+
+
+/* Sidebar - Content */
+
+.content {
+    margin-left: 1em;
+}
+
+.content > ul {
+    list-style-type: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+    line-height: 6vh;
+
+    margin: 10vh auto 0 auto;
+    padding: 0;
+}
+
+.content > ul > li {
+    display: flex;
+    flex-direction: row;
+
+    width: 15em;
+    height: 6vh;
+    text-align: center;
+
+    transition: 0.5s;
+
+    margin: 3.5vh 0 3.5vh 0;
+
+    border-radius: 20px;
+}
+
+.content > ul > li > svg {
+    transform: scale(0.5);
+    color: #BCBCBC;
+    
+    width: 5em;
+}
+
+
+.content > ul > li:hover {
+    cursor: pointer;
+    background-color: #EFEFEF;
+    
+}
+
+
+.content > ul > hr {
+    width: 80%;
+}
+
+
+/* Search bar */
+
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.search-bar > input {
+    display: block;
+    margin-left: auto;
+    margin-right: 0.4em;
+    width: 45em;
+    height: 5vh;
+
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 15px;
+
+
+    border: none;
+    font-family: Poppins;
+}
+
+.search-bar > input:focus {
+    outline: none;
+    padding-left: 2em;
+    color: #585858;
+}
+
+.search-bar > input::placeholder {
+    padding-left: 2em;
+}
+
+.search-button {
+    width: 5.2vh;
+    height: 5.2vh;
+
+    margin-right: auto;
+
+    background: #FAB20B;
+    border: none;
+    border-radius: 0px 15px 15px 15px;
+
+    transition: 0.5s;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+svg {
+   transform: scale(0.7); 
+}
