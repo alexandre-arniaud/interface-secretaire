@@ -19,6 +19,36 @@ CSS FAIT PAR LE MEILLEUR, C A DIRE MOUA
     background: #FAFAFA;
 }
 
+#sidebar > button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+
+    display: inline-block;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    margin-right: -20px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar > button:hover {
+    cursor: pointer;
+}
+
+#sidebar > button > svg {
+    transform: scale(0.5);
+    margin: auto;
+
+    color: #707070;
+}
+
 
 /* Sidebar - Title */
 
